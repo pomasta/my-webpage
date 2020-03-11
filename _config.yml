@@ -1,11 +1,25 @@
-theme: jekyll-theme-cayman
-title: Welcome to Peter's homepage! 
-description: I will make updates to this page as I do interesting things. 
-
+name: "Peter Omasta"
+output_dir: "."
 navbar:
+  title: "Peter Omasta"
   left:
-    - text: "Home"
-      href: https://pomasta.github.io/my-webpage/
     - text: "Snowshoe Hares"
-      href: file:///C:/Users/peter/Documents/UCSB/Winter%202020/AdvancedData/Blog-GH/my-webpage/PeterOmasta.html
-
+      href: research.html
+    - text: "Bonneville Dam"
+      href: talks.html
+    - text: "Hawaii Maps"
+      href: software.html
+    - text: "Farming"
+      href: teaching.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/zabore
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/zabormetrics
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+output:
+  html_document:
+    theme: paper
