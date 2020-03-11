@@ -2,3 +2,10 @@ theme: jekyll-theme-cayman
 title: Welcome to Peter's homepage! 
 description: I will make updates to this page as I do interesting things. 
 
+navbar:
+  left:
+    - text: "Home"
+      href: https://pomasta.github.io/my-webpage/
+    - text: "Snowshoe Hares"
+      href: file:///C:/Users/peter/Documents/UCSB/Winter%202020/AdvancedData/Blog-GH/my-webpage/PeterOmasta.html
+
